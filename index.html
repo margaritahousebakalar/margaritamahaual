@@ -42,61 +42,6 @@
         </div>
     </div>  
     <!-- ***** Preloader End ***** -->
-    <style>
-        .img-ajustada {
-            max-width: 10%;
-            height: auto;
-            border-radius: 100%;
-            
-        }
-        /* Estilo PDF */
-        /* Estilo para la ventana emergente (inicialmente oculta) */
-        .modal {
-            display: none; /* Oculta la ventana emergente por defecto */
-            position: fixed;
-            z-index: 1; /* Asegura que el modal esté encima de todo */
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.4); /* Fondo semitransparente */
-            overflow: auto;
-        }
-
-        /* Estilo para el contenido de la ventana emergente */
-        .modal-content {
-            background-color: #d86e6e;
-            margin: 5% auto;
-            padding: 20px;
-            border: 1px solid #888;
-            width: 80%; /* Establece el ancho del modal */
-            height: 80%; /* Establece la altura del modal */
-            position: relative;
-        }
-
-        /* Estilo para el botón de cierre */
-        .close {
-            color: #000000;
-            float: right;
-            font-size: 30px;
-            font-weight: bold;
-        }
-
-        .close:hover,
-        .close:focus {
-            color: black;
-            text-decoration: none;
-            cursor: pointer;
-        }
-
-        /* Ajustar el tamaño del visor de PDF */
-        .pdf-viewer {
-            width: 100%; /* Ajusta al ancho del modal */
-            height: 100%; /* Ajusta a la altura del modal */
-        }
-        
-
-    </style>
     
     <!-- ***** Header Area Start ***** -->
     <header class="header-area header-sticky">
@@ -115,16 +60,7 @@
                             <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
                             <li class="scroll-to-section"><a href="#about">About</a></li>
                            	
-                            <!-- 
-                            <li class="submenu">
-                                <a href="javascript:;">Drop Down</a>
-                                <ul>
-                                    <li><a href="#">Drop Down Page 1</a></li>
-                                    <li><a href="#">Drop Down Page 2</a></li>
-                                    <li><a href="#">Drop Down Page 3</a></li>
-                                </ul>
-                            </li>
-                            --> 
+                            
                             <!-- Menu de Restaurante -->
                             <li>
                                 <li>
@@ -138,7 +74,7 @@
                                             <!-- Botón para cerrar la ventana emergente -->
                                             <span class="close" id="closeModalBtn">&times;</span>
                                             <!-- Visor del PDF -->
-                                            <embed src="assets/pdf/margaritas 2025.pdf" type="application/pdf" class="pdf-viewer" width="1000px" height="600px">
+                                            <embed src="assets/pdf/menu ingles 2025. LISTO.pdf" type="application/pdf" class="pdf-viewer" >
                                         </div>
                                     </div>
                                 
@@ -888,5 +824,6 @@
   </body>
 
 </html>
+
 
 
